@@ -438,7 +438,7 @@ html {
         background: #794CFF;
         border: 1px solid #794CFF;
         border-radius: 4px;
-        padding: 18px 121px;
+        // padding: 18px 121px;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 500;
@@ -446,8 +446,8 @@ html {
         line-height: 16px;
         text-align: center;
         color: #FFFFFF;
-        max-width: 318px;
-        max-height: 52px;
+        width: 318px;
+        height: 52px;
         cursor: pointer;
 
         @media screen and (min-width: 1000px) {
@@ -457,9 +457,9 @@ html {
           font-size: 16px;
           line-height: 16px;
           color: #FFFFFF;
-          padding: 18px 45px;
+          // padding: 18px 45px;
           margin-left: -5px;
-          min-width: 166px;
+          width: 165px;
         }
       }
     }
